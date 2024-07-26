@@ -2,7 +2,7 @@
     "clientName": "Thunder Client",
     "collectionName": "PHP-PDO",
     "collectionId": "d3c9738c-ee07-400f-87b8-6f7900cef1f0",
-    "dateExported": "2024-07-26T05:57:39.490Z",
+    "dateExported": "2024-07-26T06:24:24.113Z",
     "version": "1.2",
     "folders": [],
     "requests": [
@@ -22,7 +22,24 @@
                 "raw": "[\n  {\n    \"produto\": \"10.01.0419\",\n    \"cor\": \"00\",\n    \"tamanho\": \"P\",\n    \"deposito\": \"DEP1\",\n    \"data_disponibilidade\": \"2023-05-01\",\n    \"quantidade\": 15\n  },\n  {\n    \"produto\": \"11.01.0568\",\n    \"cor\": \"08\",\n    \"tamanho\": \"P\",\n    \"deposito\": \"DEP1\",\n    \"data_disponibilidade\": \"2023-05-01\",\n    \"quantidade\": 2\n  },\n  {\n    \"produto\": \"11.01.0568\",\n    \"cor\": \"08\",\n    \"tamanho\": \"M\",\n    \"deposito\": \"DEP1\",\n    \"data_disponibilidade\": \"2023-05-01\",\n    \"quantidade\": 4\n  },\n  {\n    \"produto\": \"11.01.0568\",\n    \"cor\": \"08\",\n    \"tamanho\": \"G\",\n    \"deposito\": \"1\",\n    \"data_disponibilidade\": \"2023-05-01\",\n    \"quantidade\": 6\n  },\n  {\n    \"produto\": \"11.01.0568\",\n    \"cor\": \"08\",\n    \"tamanho\": \"P\",\n    \"deposito\": \"DEP1\",\n    \"data_disponibilidade\": \"2023-06-01\",\n    \"quantidade\": 8\n  }\n]",
                 "form": []
             }
+        },
+        {
+            "_id": "03a4ec44-0a82-4a55-bcae-cc7020ab01cd",
+            "colId": "d3c9738c-ee07-400f-87b8-6f7900cef1f0",
+            "containerId": "",
+            "name": "Alterar Produto",
+            "url": "http://localhost:8080/testeUpdate.php",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2024-07-26T06:14:16.355Z",
+            "modified": "2024-07-26T06:19:54.423Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"cor\": \"01\",\n    \"tamanho\": \"GG\",\n    \"deposito\": \"DEP1\",\n    \"data_disponibilidade\": \"2023-06-01\",\n    \"quantidade\": 20,\n    \"id\": \"1\"\n}",
+                "form": []
+            }
         }
     ],
-    "ref": "ev4G7mEgO91VXO-GMxd2NAdobFk1mujEp9qYUJX-5NYQT42UYm-5qmrSESWgeKTkrFbFT7yucNp6L5ygQ7tqIw"
+    "ref": "ev4G7mEgO91VXO-GMxd2NIeLFYJVN9LbVDJ8Tjnk4xLIl5gORzIL92FeVMPrj_GGUoWFxwgzgmVr5Sod-km33w"
 }
