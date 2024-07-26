@@ -1,0 +1,28 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "PHP-PDO",
+    "collectionId": "d3c9738c-ee07-400f-87b8-6f7900cef1f0",
+    "dateExported": "2024-07-26T05:57:39.490Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "f115e203-bd4b-46e0-a85f-5a2968dd3acb",
+            "colId": "d3c9738c-ee07-400f-87b8-6f7900cef1f0",
+            "containerId": "",
+            "name": "Inserir Produtos",
+            "url": "http://localhost:8080/testeInsert2.php",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-07-26T05:56:58.663Z",
+            "modified": "2024-07-26T05:56:58.663Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "[\n  {\n    \"produto\": \"10.01.0419\",\n    \"cor\": \"00\",\n    \"tamanho\": \"P\",\n    \"deposito\": \"DEP1\",\n    \"data_disponibilidade\": \"2023-05-01\",\n    \"quantidade\": 15\n  },\n  {\n    \"produto\": \"11.01.0568\",\n    \"cor\": \"08\",\n    \"tamanho\": \"P\",\n    \"deposito\": \"DEP1\",\n    \"data_disponibilidade\": \"2023-05-01\",\n    \"quantidade\": 2\n  },\n  {\n    \"produto\": \"11.01.0568\",\n    \"cor\": \"08\",\n    \"tamanho\": \"M\",\n    \"deposito\": \"DEP1\",\n    \"data_disponibilidade\": \"2023-05-01\",\n    \"quantidade\": 4\n  },\n  {\n    \"produto\": \"11.01.0568\",\n    \"cor\": \"08\",\n    \"tamanho\": \"G\",\n    \"deposito\": \"1\",\n    \"data_disponibilidade\": \"2023-05-01\",\n    \"quantidade\": 6\n  },\n  {\n    \"produto\": \"11.01.0568\",\n    \"cor\": \"08\",\n    \"tamanho\": \"P\",\n    \"deposito\": \"DEP1\",\n    \"data_disponibilidade\": \"2023-06-01\",\n    \"quantidade\": 8\n  }\n]",
+                "form": []
+            }
+        }
+    ],
+    "ref": "ev4G7mEgO91VXO-GMxd2NAdobFk1mujEp9qYUJX-5NYQT42UYm-5qmrSESWgeKTkrFbFT7yucNp6L5ygQ7tqIw"
+}
