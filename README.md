@@ -12,7 +12,7 @@ Este projeto PHP utiliza PDO para interagir com um banco de dados MySQL, visando
 * **Testes:**
   * Contém scripts para testes unitários das funcionalidades básicas, como conexão com o banco, inserção, atualização.
 * **Entrega Definitva:**
-  * Contém o código principal do projeto, incluindo o método `atualizarEstoque` e outras funcionalidades.
+  * Contém o código principal do projeto, incluindo o método `atualizarEstoque`.
 * **JSON:**
   * Armazena a documentação da API em formato JSON, detalhando os endpoints e parâmetros.
 
