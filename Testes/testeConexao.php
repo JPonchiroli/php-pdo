@@ -1,11 +1,11 @@
 <?php
 // Teste apenas para testar conexão com banco de dados 
 
-  $host = '127.0.0.1';
-  $db = 'phppdo';
-  $user = 'user';
-  $pass = '123';
-  $charset = 'utf8mb4';
+  $host = "127.0.0.1";
+  $db = "phppdo";
+  $user = "user";
+  $pass = "123";
+  $charset = "utf8mb4";
   
   $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
   $options = [
@@ -18,6 +18,6 @@
       $pdo = new PDO($dsn, $user, $pass, $options);
       echo "Conexão bem-sucedida!";
   } catch (\PDOException $e) {
-      echo 'Erro: ' . $e -> getMessage();
+      echo "Erro: " . $e -> getMessage();
   }
 ?>
