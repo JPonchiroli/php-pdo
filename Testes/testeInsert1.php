@@ -1,11 +1,11 @@
 <?php
-// Teste de inserção de dados no banco
+// Teste de inserção de um produto no banco
 
-  $host = '127.0.0.1';
-  $db = 'phppdo';
-  $user = 'user';
-  $pass = '123';
-  $charset = 'utf8mb4';
+  $host = "127.0.0.1";
+  $db = "phppdo";
+  $user = "user";
+  $pass = "123";
+  $charset = "utf8mb4";
   
   $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
   $options = [
@@ -26,16 +26,16 @@
       $data_disponibilidade = "2023-05-01";
       $quantidade = "15";
 
-      $stmt -> bindParam(':produto', $produto);
-      $stmt -> bindParam(':cor', $cor);
-      $stmt -> bindParam(':tamanho', $tamanho);
-      $stmt -> bindParam(':deposito', $deposito);
-      $stmt -> bindParam(':data_disponibilidade', $data_disponibilidade);
-      $stmt -> bindParam(':quantidade', $quantidade);
+      $stmt -> bindParam(":produto", $produto);
+      $stmt -> bindParam(":cor", $cor);
+      $stmt -> bindParam(":tamanho", $tamanho);
+      $stmt -> bindParam(":deposito", $deposito);
+      $stmt -> bindParam(":data_disponibilidade", $data_disponibilidade);
+      $stmt -> bindParam(":quantidade", $quantidade);
 
       $stmt -> execute();
-      echo "Usuário Inserido com Sucesso";
+      echo "Produto Inserido com Sucesso";
   } catch (\PDOException $e) {
-      echo 'Erro: ' . $e -> getMessage();
+      echo "Erro: " . $e -> getMessage();
   }
 ?>
