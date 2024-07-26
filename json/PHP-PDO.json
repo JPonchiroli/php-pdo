@@ -2,7 +2,7 @@
     "clientName": "Thunder Client",
     "collectionName": "PHP-PDO",
     "collectionId": "d3c9738c-ee07-400f-87b8-6f7900cef1f0",
-    "dateExported": "2024-07-26T06:24:24.113Z",
+    "dateExported": "2024-07-26T07:43:00.411Z",
     "version": "1.2",
     "folders": [],
     "requests": [
@@ -39,7 +39,24 @@
                 "raw": "{\n    \"cor\": \"01\",\n    \"tamanho\": \"GG\",\n    \"deposito\": \"DEP1\",\n    \"data_disponibilidade\": \"2023-06-01\",\n    \"quantidade\": 20,\n    \"id\": \"1\"\n}",
                 "form": []
             }
+        },
+        {
+            "_id": "ed38b2e2-038a-4d3b-83d5-236effcdc867",
+            "colId": "d3c9738c-ee07-400f-87b8-6f7900cef1f0",
+            "containerId": "",
+            "name": "Atualização de Estoque",
+            "url": "http://localhost:8080/atualizarEstoque.php",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-07-26T06:52:58.771Z",
+            "modified": "2024-07-26T07:03:04.821Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "[\n  {\n    \"produto\": \"10.01.0419\",\n    \"cor\": \"00\",\n    \"tamanho\": \"P\",\n    \"deposito\": \"DEP1\",\n    \"data_disponibilidade\": \"2023-05-01\",\n    \"quantidade\": 15\n  },\n  {\n    \"produto\": \"11.01.0568\",\n    \"cor\": \"08\",\n    \"tamanho\": \"P\",\n    \"deposito\": \"DEP1\",\n    \"data_disponibilidade\": \"2023-05-01\",\n    \"quantidade\": 2\n  },\n  {\n    \"produto\": \"11.01.0568\",\n    \"cor\": \"08\",\n    \"tamanho\": \"M\",\n    \"deposito\": \"DEP1\",\n    \"data_disponibilidade\": \"2023-05-01\",\n    \"quantidade\": 4\n  },\n  {\n    \"produto\": \"11.01.0568\",\n    \"cor\": \"08\",\n    \"tamanho\": \"G\",\n    \"deposito\": \"1\",\n    \"data_disponibilidade\": \"2023-05-01\",\n    \"quantidade\": 6\n  },\n  {\n    \"produto\": \"11.01.0568\",\n    \"cor\": \"08\",\n    \"tamanho\": \"P\",\n    \"deposito\": \"DEP1\",\n    \"data_disponibilidade\": \"2023-06-01\",\n    \"quantidade\": 8\n  }\n]",
+                "form": []
+            }
         }
     ],
-    "ref": "ev4G7mEgO91VXO-GMxd2NIeLFYJVN9LbVDJ8Tjnk4xLIl5gORzIL92FeVMPrj_GGUoWFxwgzgmVr5Sod-km33w"
+    "ref": "ev4G7mEgO91VXO-GMxd2NFXqBTN984HHT2YwPonHALj7fkkbOJ3L-wd64cqvyyTQ2MfMuVlnioY_w9--u4yDxA"
 }
